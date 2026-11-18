@@ -1,0 +1,53 @@
+{
+  "name": "dsh-nihongo-test",
+  "version": "0.2.0",
+  "private": false,
+  "type": "module",
+  "description": "DSH 插件：日语笔译模考（五库题库、组卷、计时考试、客观题判分、实务 AI 双评、错题库、成绩单）",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "lib",
+    "test",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "icon": "./icon.svg",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "catti",
+    "japanese",
+    "translation",
+    "exam"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utoisu/dsh-nihongo-test.git"
+  },
+  "homepage": "https://github.com/utoisu/dsh-nihongo-test#readme",
+  "bugs": {
+    "url": "https://github.com/utoisu/dsh-nihongo-test/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}
+
+

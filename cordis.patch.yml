@@ -1,0 +1,8 @@
+# dsh-nihongo-test —— DSH 插件挂载声明
+#
+# 装到 DSH 的 profile 里之后，这一行会把插件挂进 Loader。
+# dataDir 不写死：默认落在 DSH 当前工作区的 .dsh-nihongo-test 目录，
+# 想换位置就在 profile 的 cordis.patch.yml 里按 id 覆盖 config.dataDir。
+- insert:
+    - id: dsh-nihongo-test
+      name: dsh-nihongo-test

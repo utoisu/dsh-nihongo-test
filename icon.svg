@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" role="img" aria-label="CATTI mock exam paper">
+  <rect x="9" y="4.9" width="18" height="25.6" rx="2.6" fill="#F2F5F9" stroke="#46596B" stroke-width="1.9"/>
+  <path d="M13.1 11.2h9.8M13.1 15.3h9.8M13.1 19.4h6.2" stroke="#7C8FA1" stroke-width="1.7" stroke-linecap="round"/>
+  <circle cx="24.4" cy="26.3" r="3.5" fill="#C4473A"/>
+  <path d="M22.7 26.3l1.2 1.3 2.2-2.4" stroke="#FBFCFD" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

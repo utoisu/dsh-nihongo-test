@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "CATTI mock exam",
+    "description": "Japanese–Chinese translation level 2 mock exams: five separate banks (vocabulary, grammar, reading, ja→zh, zh→ja), free or CATTI-template paper assembly, a server-timed exam with unlimited pauses and crash recovery, objective grading with disputed answers excluded, and a report with per-question verdicts. Open it from the CATTI 模考 icon in the sidebar; data lives in workspace JSON."
+  }
+}
